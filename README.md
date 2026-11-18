@@ -244,6 +244,7 @@ The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/z
 
 ## Related projects
 
+- [certified-quantum-ball](https://github.com/Hashirama1337s/certified-quantum-ball): the certified one-loop quantum push on the Evans-Coleman critical solution, and its sign (toward trapping)
 - [certified-bowen-york-spin](https://github.com/Hashirama1337s/certified-bowen-york-spin): the certified spin ceiling of Bowen-York black holes
 - [certified-evans-coleman](https://github.com/Hashirama1337s/certified-evans-coleman): a certified critical collapse of radiation at the threshold of black-hole formation
 - [large-d-gregory-laflamme](https://github.com/Hashirama1337s/large-d-gregory-laflamme): when a black string cracks, to order 1/n¹²
