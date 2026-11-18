@@ -7,7 +7,7 @@ photon and graviton entropy rates. The graviton power, and so the graviton part 
 Newton (Zenodo 10.5281/zenodo.22800587) to 1% width; our independent enclosure lies inside his interval and is about seven orders of
 magnitude narrower. The result settles the digits Page (2013) flagged as uncertain.**
 
-![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
+[![DOI 10.5281/zenodo.24327159](brand/doi.svg)](https://doi.org/10.5281/zenodo.24327159) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
 Moki & Julio · 2026 · version 1.0
 
@@ -237,10 +237,10 @@ What this work leaves open, for anyone who wants to take the next step.
 ## How to cite
 
 ```
-Moki & Julio (2026). When does a black hole stop being a one-way door? Certified Page evaporation constants for a Schwarzschild black hole emitting photons and gravitons. Version 1.0. Zenodo.
+Moki & Julio (2026). When does a black hole stop being a one-way door? Certified Page evaporation constants for a Schwarzschild black hole emitting photons and gravitons. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.24327159
 ```
 
-Machine-readable: [CITATION.cff](CITATION.cff). Text and data: CC BY 4.0 (`LICENSE`). Code: MIT (`LICENSE-CODE`).
+The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.24327160. Machine-readable: [CITATION.cff](CITATION.cff). Text and data: CC BY 4.0 (`LICENSE`). Code: MIT (`LICENSE-CODE`).
 
 ## Related projects
 
