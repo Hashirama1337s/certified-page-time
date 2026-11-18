@@ -1,0 +1,69 @@
+{
+ "method": "MST hypergeometric/Coulomb series solution of the Teukolsky radial equation (s=-1, s=-2), Gauss-Legendre panels; NOT a rigorous enclosure (high precision + convergence study)",
+ "units": "G=c=hbar=k=1, M=1",
+ "resume_tested": "not applicable (no checkpoint path)",
+ "P1": {
+  "value_13sig": "3.363854785578e-5",
+  "value_raw_B": "0.000033638547855775436585",
+  "abs_error_estimate": "1.3e-18",
+  "rel_error_estimate": "4.0e-14"
+ },
+ "P2": {
+  "value_13sig": "3.836739924959e-6",
+  "value_raw_B": "3.8367399249594510188e-6",
+  "abs_error_estimate": "8.9e-19",
+  "rel_error_estimate": "2.3e-13"
+ },
+ "alpha": {
+  "value_13sig": "3.747528778073e-5",
+  "value_raw_B": "0.000037475287780734887604",
+  "abs_error_estimate": "2.2e-18",
+  "rel_error_estimate": "5.9e-14"
+ },
+ "Sdot1": {
+  "value_13sig": "0.001268365954077",
+  "value_raw_B": "0.0012683659540774391119",
+  "abs_error_estimate": "9.8e-17",
+  "rel_error_estimate": "7.7e-14"
+ },
+ "Sdot2": {
+  "value_13sig": "0.0001300008786207",
+  "value_raw_B": "0.00013000087862073855954",
+  "abs_error_estimate": "2.2e-17",
+  "rel_error_estimate": "1.7e-13"
+ },
+ "beta": {
+  "value_13sig": "1.484691691908",
+  "value_raw_B": "1.484691691907989846",
+  "abs_error_estimate": "2.1e-13",
+  "rel_error_estimate": "1.4e-13"
+ },
+ "t_ratio": {
+  "value_13sig": "0.5381024531598",
+  "value_raw_B": "0.538102453159802019",
+  "abs_error_estimate": "6.0e-14",
+  "rel_error_estimate": "1.1e-13"
+ },
+ "controls": {
+  "max_unitarity_residual_all_nodes": 1.1754943508222875e-35,
+  "max_rel_Gamma_40_vs_55_digits": 2.1402460288082654e-36,
+  "max_rel_Gamma_Knu_r0_vs_r1": 5.46272073224438e-38,
+  "max_rel_Gamma_series_cutoff": 7.40233450562945e-40,
+  "area_limit_Gamma00_over_16w2": {
+   "0.001": {
+    "Gamma_over_16w2": "[1.00639981882409 +/- 3.10e-15]",
+    "unitarity": "[+/- 2.94e-35]"
+   },
+   "0.0001": {
+    "Gamma_over_16w2": "[1.00062981759525 +/- 3.56e-15]",
+    "unitarity": "[+/- 2.93e-33]"
+   },
+   "0.00001": {
+    "Gamma_over_16w2": "[1.00006285021399 +/- 3.52e-15]",
+    "unitarity": "[+/- 2.93e-31]"
+   }
+  },
+  "missing_panels": 0,
+  "monotonicity_violations": 0
+ }
+}

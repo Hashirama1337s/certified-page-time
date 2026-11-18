@@ -1,0 +1,129 @@
+{
+ "source": "<LAB-JSON>\\build-1\\result_hk1b.json",
+ "source_sha256": "cecd313a1d73ed755ae65bbf1445ce2adfdf6ddbb406be21a640fa3cfa43feb4",
+ "rule": "AMEND-HK-1-1 rounding intervals",
+ "PH1": {
+  "enclosure": "[1.4846916919 +/- 7.81e-11]",
+  "bar": "1.4846916919",
+  "rounding_interval": [
+   "[1.48469169185000 +/- 3e-19]",
+   "[1.48469169195000 +/- 3e-19]"
+  ],
+  "overlaps_interval": true,
+  "rel_width": 1.0520702816209165e-10,
+  "width_ok": true,
+  "printed_beta_exclusion": {
+   "Page 2013": {
+    "interval": [
+     "[1.484715000 +/- 3e-14]",
+     "[1.484725000 +/- 1e-14]"
+    ],
+    "disjoint": true,
+    "gap_to_interval": "[2.33081e-5 +/- 7.82e-11]"
+   },
+   "Perez-Gonzalez 2025": {
+    "interval": [
+     "[1.484705000 +/- 3e-14]",
+     "[1.484715000 +/- 1e-14]"
+    ],
+    "disjoint": true,
+    "gap_to_interval": "[1.33081e-5 +/- 7.82e-11]"
+   }
+  },
+  "outcome": "PASS"
+ },
+ "PH2": {
+  "items": {
+   "P_1": {
+    "enclosure": "[3.3638547856e-5 +/- 2.57e-16]",
+    "bar": "3.3638547856e-5",
+    "rounding_interval": [
+     "[3.36385478555000e-5 +/- 1e-24]",
+     "[3.36385478565000e-5 +/- 3e-24]"
+    ],
+    "overlaps_interval": true,
+    "rel_width": 1.528008891622205e-11,
+    "width_ok": true
+   },
+   "alpha": {
+    "enclosure": "[3.747528778e-5 +/- 1.96e-15]",
+    "bar": "3.7475287781e-5",
+    "rounding_interval": [
+     "[3.74752877805000e-5 +/- 3e-24]",
+     "[3.74752877815000e-5 +/- 3e-24]"
+    ],
+    "overlaps_interval": true,
+    "rel_width": 1.0460226587252594e-10,
+    "width_ok": true
+   },
+   "Sdot_1": {
+    "enclosure": "[0.0012683659541 +/- 2.47e-14]",
+    "bar": "1.2683659541e-3",
+    "rounding_interval": [
+     "[0.00126836595405000 +/- 3e-22]",
+     "[0.00126836595415000 +/- 3e-22]"
+    ],
+    "overlaps_interval": true,
+    "rel_width": 3.894775005533584e-11,
+    "width_ok": true
+   },
+   "Sdot_2": {
+    "enclosure": "[0.0001300008786 +/- 5.55e-14]",
+    "bar": "1.3000087862e-4",
+    "rounding_interval": [
+     "[0.000130000878615000 +/- 3e-23]",
+     "[0.000130000878625000 +/- 1e-23]"
+    ],
+    "overlaps_interval": true,
+    "rel_width": 8.538403858461371e-10,
+    "width_ok": true
+   },
+   "page_time": {
+    "enclosure": "[0.5381024532 +/- 8.99e-11]",
+    "bar": "0.5381024532",
+    "rounding_interval": [
+     "[0.538102453150000 +/- 3e-20]",
+     "[0.538102453250000 +/- 3e-20]"
+    ],
+    "overlaps_interval": true,
+    "rel_width": 3.341371138279811e-10,
+    "width_ok": true
+   }
+  },
+  "outcome": "PASS"
+ },
+ "PH3": {
+  "enclosure": "[3.836739925e-6 +/- 6.95e-16]",
+  "bar": "3.8367399250e-6",
+  "rounding_interval": [
+   "[3.83673992495000e-6 +/- 3e-25]",
+   "[3.83673992505000e-6 +/- 3e-25]"
+  ],
+  "overlaps_interval": true,
+  "rel_width": 3.6228674117624484e-10,
+  "width_ok": true,
+  "inside_newton": true,
+  "outcome": "PASS"
+ },
+ "PH4": {
+  "outcome": "PASS",
+  "copied_from_result": true
+ },
+ "PH5": {
+  "outcome": "PASS",
+  "copied_from_result": true
+ },
+ "PH6": {
+  "outcome": "PASS",
+  "copied_from_result": true
+ },
+ "original_outcomes": {
+  "PH1": "PASS",
+  "PH2": "PASS",
+  "PH3": "PASS",
+  "PH4": "PASS",
+  "PH5": "PASS",
+  "PH6": "PASS"
+ },
+ "changed": []
+}

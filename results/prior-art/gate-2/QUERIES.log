@@ -1,0 +1,183 @@
+# QUERIES.log - prior-art REFRESH gate HAWKING, gate-2, 2026-11-17. Block shape ('== <db>: <query>' then 'TOTAL <n>'). Controls tagged '# control'.
+# Zenodo API returns HTTP 400 for size>25 (unauthenticated); those runs are kept below as comments, re-run via tools/newton.py (size 25, paged).
+== inspire: t:"greybody factors" # control
+TOTAL 142
+== inspire: refersto:recid:1215583 # control
+TOTAL 411
+== inspire: refersto:recid:2877688
+TOTAL 14
+== inspire: refersto:recid:3228000
+TOTAL 0
+== inspire: fulltext:"1.48472" # control
+TOTAL 5
+== inspire: fulltext:"1.48469"
+TOTAL 2
+== inspire: fulltext:"1.484691"
+TOTAL 0
+== inspire: fulltext:"1.4846917"
+TOTAL 0
+== inspire: fulltext:"0.538102"
+TOTAL 0
+== inspire: fulltext:"0.53810"
+TOTAL 3
+== inspire: fulltext:"0.5381"
+TOTAL 92
+== inspire: fulltext:"1.48471"
+TOTAL 3
+== inspire: fulltext:"Page time" and fulltext:"interval arithmetic"
+TOTAL 0
+== inspire: fulltext:"Page time" and fulltext:"certified" and fulltext:"greybody"
+TOTAL 0
+== inspire: fulltext:"Page time" and fulltext:"rigorous" and fulltext:"photons and gravitons"
+TOTAL 27
+== inspire: fulltext:"interval arithmetic" and fulltext:"greybody"
+TOTAL 2
+== inspire: fulltext:"interval arithmetic" and fulltext:"Regge-Wheeler"
+TOTAL 3
+== inspire: fulltext:"ball arithmetic" and fulltext:"Hawking"
+TOTAL 3
+== inspire: abstracts.value:"greybody" and de > 2026-11-01
+TOTAL 2
+== inspire: abstracts.value:"Hawking radiation" and abstracts.value:"Schwarzschild" and de > 2026-11-08
+TOTAL 0
+== inspire: abstracts.value:"Page time" and de > 2026-11-01
+TOTAL 0
+== inspire: abstracts.value:"certified" and abstracts.value:"black hole" and de > 2026-10-01
+TOTAL 0
+== inspire: abstracts.value:"interval arithmetic" and de > 2026-06-01
+TOTAL 5
+== arxiv: abs:"Hawking radiation" # control
+TOTAL 2624
+== arxiv: abs:greybody
+TOTAL 411
+== arxiv: abs:graybody
+TOTAL 34
+== arxiv: abs:"Page time"
+TOTAL 194
+== arxiv: abs:"Hawking radiation" AND abs:Schwarzschild
+TOTAL 475
+== arxiv: abs:"Regge-Wheeler"
+TOTAL 359
+== arxiv: all:"interval arithmetic" AND all:"black hole"
+TOTAL 0
+== arxiv: all:"ball arithmetic" AND all:"black hole"
+TOTAL 0
+== arxiv: all:"computer-assisted" AND all:"black hole"
+TOTAL 3
+== arxiv: all:certified AND all:greybody
+TOTAL 0
+== arxiv: all:rigorous AND all:greybody
+TOTAL 34
+== arxiv: all:"Page time" AND all:certified
+TOTAL 0
+== arxiv: all:"Page time" AND all:rigorous
+TOTAL 0
+== arxiv: all:"Page time" AND all:interval
+TOTAL 2
+== arxiv: abs:"photon luminosity" AND abs:Schwarzschild
+TOTAL 2
+== arxiv: abs:"evaporation" AND abs:"photons and gravitons"
+TOTAL 4
+== arxiv: abs:"entropy" AND abs:"Hawking radiation" AND abs:"photons" AND abs:"gravitons"
+TOTAL 2
+== zenodo: "Hawking radiation" # control
+TOTAL 1697
+# known-bad (HTTP 400, page size >25) == zenodo: creators.name:"Newton, Tony"
+== zenodo: "greybody"
+TOTAL 78
+== zenodo: "graybody"
+TOTAL 6
+== zenodo: "Page time" AND "black hole"
+TOTAL 83
+== zenodo: "1.48469"
+TOTAL 0
+== zenodo: "1.484691"
+TOTAL 0
+== zenodo: "1.4846917"
+TOTAL 0
+== zenodo: "0.538102"
+TOTAL 0
+== zenodo: "1.48472" # control
+TOTAL 1
+== zenodo: "Hawking radiation" AND certified
+TOTAL 17
+== zenodo: "Hawking radiation" AND "interval arithmetic"
+TOTAL 4
+== zenodo: "photon" AND "greybody" AND "Arb"
+TOTAL 0
+== zenodo: "photon luminosity" AND Schwarzschild
+TOTAL 0
+== zenodo: Schwarzschild AND "Page" AND "entropy" AND "evaporation"
+TOTAL 42
+== zenodo: "Regge-Wheeler"
+TOTAL 57
+== zenodo: "proof-carrying" AND Hawking
+TOTAL 4
+== zenodo: "electromagnetic" AND "Hawking" AND "enclosure"
+TOTAL 3
+# known-bad (HTTP 400, page size >25) == zenodo: creators.name:"Newton, Tony"
+# known-bad (HTTP 400, page size >25) == zenodo: creators.name:"Newton, Tony"
+# known-bad (HTTP 400, page size >25) == zenodo: creators.name:Newton AND Hawking
+== zenodo: Newton AND "graviton" AND Schwarzschild
+TOTAL 15
+== zenodo: "Schwarzschild" AND "photon" AND "Hawking" AND ("Arb" OR "ball arithmetic" OR "interval")
+TOTAL 13
+== zenodo: "electromagnetic" AND "greybody" AND Schwarzschild
+TOTAL 7
+== zenodo: "EV424"
+TOTAL 11
+== zenodo: "Hawking" AND "reverification"
+TOTAL 1
+== zenodo: "Page" AND "1.4847"
+TOTAL 2
+== zenodo: "Page" AND "beta" AND "Hawking" AND "photons"
+TOTAL 8
+== arxiv: cat:gr-qc # control
+TOTAL 126585
+== arxiv: cat:gr-qc AND abs:Hawking
+TOTAL 5996
+== arxiv: cat:hep-th AND abs:Hawking AND abs:Schwarzschild
+TOTAL 801
+== arxiv: abs:"Page" AND abs:evaporation AND abs:Schwarzschild
+TOTAL 30
+== arxiv: abs:"emission rates" AND abs:"black hole"
+TOTAL 275
+== arxiv: abs:"primordial black hole" AND abs:evaporation
+TOTAL 616
+== arxiv: all:"Newton" AND all:greybody
+TOTAL 2
+== arxiv: abs:"greybody" AND abs:"Korteweg"
+TOTAL 5
+== zenodo: creators.name:"Newton, Tony"
+TOTAL 149
+== inspire: fulltext:"zenodo.22800587"
+TOTAL 0
+== inspire: fulltext:"Proof-Carrying Schwarzschild"
+TOTAL 0
+== inspire: t:"Page time" # control
+TOTAL 7
+== inspire: fulltext:"Page time" and fulltext:"Arb" and fulltext:"Hawking"
+TOTAL 3
+== inspire: fulltext:"entropy production ratio" and fulltext:"Hawking"
+TOTAL 5
+== inspire: fulltext:"photon" and fulltext:"greybody" and fulltext:"interval arithmetic"
+TOTAL 2
+== inspire: fulltext:"photon" and fulltext:"greybody" and fulltext:"ball arithmetic"
+TOTAL 0
+== inspire: fulltext:"3.36385"
+TOTAL 0
+== inspire: fulltext:"3.7475" and de > 2026-11-01
+TOTAL 0
+== inspire: refersto:recid:113270 and de > 2026-11-08
+TOTAL 1
+== zenodo: "Page factor" OR "Page factors"
+TOTAL 3
+== zenodo: "Hawking" AND "Page" AND "photons" AND "gravitons"
+TOTAL 7
+== zenodo: "3.36385"
+TOTAL 1
+== zenodo: "0.53810"
+TOTAL 0
+web | query | certified enclosure Page evaporation constants Schwarzschild photons gravitons interval arithmetic beta 1.4847 | 10
+web | query | rigorous computer-assisted Hawking luminosity Schwarzschild electromagnetic greybody Arb enclosure 2026 | 10
+web | query | "1.48469" OR "1.484691" Hawking Page entropy ratio black hole | 10

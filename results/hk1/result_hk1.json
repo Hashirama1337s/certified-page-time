@@ -1,0 +1,171 @@
+{
+ "bar": "BAR-HK-1",
+ "instrument_sha256": "04e22276661daf64f9d922eddf03d88cd09703123564abda0f740a39a9517795",
+ "files": {
+  "hkcore.py": "67cde61d4c629f59c1c64bc76f1389c577c210062fd7d157416ac57e6397665b",
+  "hkquad.py": "22289f8bc6f63c787c3fed3242335800da3ae13220eb4a2b3d5e0d7374c0669e",
+  "hkbounds.py": "0f0af91665f312cec35081080234afdadd7864694b277ddf68c540bdbf373a85",
+  "hkchannel.py": "31c6c0781f7f5b4fffb407fd6cc3329877019d272075ca7594cd76ae513918d6",
+  "hk1_cert.py": "8fc13b9fb3528ad4777f16eb41b0366ea4d51a5d79569ab9f48943a1a520a5d7"
+ },
+ "config": {
+  "L_T": 9,
+  "L_BIG": 60,
+  "W_HI": "1.601562500",
+  "JET_LEN": 64,
+  "PREC": 256
+ },
+ "values_error": "Refuse: panel_integrals: sub-interval remainder not controlled at depth 7",
+ "values_traceback": "Traceback (most recent call last):\n  File \"<LAB-JSON>\\build-1\\hk1_cert.py\", line 237, in do_main\n    chans = run_all_channels(ledger, log)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hk1_cert.py\", line 112, in run_all_channels\n    r = C.run_channel(s, l, ledger, log=log)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkchannel.py\", line 136, in run_channel\n    ip, is_, in_, info = do_panel(eq, lo, hi)\n                         ^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkchannel.py\", line 98, in do_panel\n    IP, IS, IN, info = Q.panel_integrals(co, rA, w0, delta)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 112, in panel_integrals\n    vals, ql = one(c, h, 0)\n               ^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 101, in one\n    b = one(c + h / 2, h / 2, depth + 1)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 100, in one\n    a = one(c - h / 2, h / 2, depth + 1)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 100, in one\n    a = one(c - h / 2, h / 2, depth + 1)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 101, in one\n    b = one(c + h / 2, h / 2, depth + 1)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 100, in one\n    a = one(c - h / 2, h / 2, depth + 1)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 100, in one\n    a = one(c - h / 2, h / 2, depth + 1)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 100, in one\n    a = one(c - h / 2, h / 2, depth + 1)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LAB-JSON>\\build-1\\hkquad.py\", line 99, in one\n    raise H.Refuse(\"panel_integrals: sub-interval remainder not controlled at depth %d\" % depth)\nhkcore.Refuse: panel_integrals: sub-interval remainder not controlled at depth 7\n",
+ "PH1": {
+  "outcome": "INCONCLUSIVE",
+  "reason": "values not computed"
+ },
+ "PH2": {
+  "outcome": "INCONCLUSIVE",
+  "reason": "values not computed"
+ },
+ "PH3": {
+  "outcome": "INCONCLUSIVE",
+  "reason": "values not computed"
+ },
+ "PH4": {
+  "points": [
+   {
+    "l": 2,
+    "w": "0.05",
+    "Gamma_RW": "[2.68741218289425756438e-8 +/- 6.91e-29]",
+    "Gamma_Z": "[2.68741218289425756438e-8 +/- 7.34e-29]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 5.93e-14]",
+    "flux_Z_width": "[+/- 6.89e-14]"
+   },
+   {
+    "l": 2,
+    "w": "0.2",
+    "Gamma_RW": "[0.00086759357123889601579 +/- 4.71e-24]",
+    "Gamma_Z": "[0.00086759357123889601579 +/- 4.77e-24]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 2.32e-18]",
+    "flux_Z_width": "[+/- 2.65e-18]"
+   },
+   {
+    "l": 2,
+    "w": "0.37",
+    "Gamma_RW": "[0.43622007404747669307 +/- 5.08e-21]",
+    "Gamma_Z": "[0.436220074047476693066 +/- 7.89e-22]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 8.35e-21]",
+    "flux_Z_width": "[+/- 6.51e-21]"
+   },
+   {
+    "l": 2,
+    "w": "0.6",
+    "Gamma_RW": "[0.9993402106811279350 +/- 5.10e-20]",
+    "Gamma_Z": "[0.9993402106811279350 +/- 5.01e-20]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 9.55e-21]",
+    "flux_Z_width": "[+/- 1.02e-20]"
+   },
+   {
+    "l": 2,
+    "w": "1.0",
+    "Gamma_RW": "[0.9999999946882528251 +/- 6.40e-20]",
+    "Gamma_Z": "[0.9999999946882528251 +/- 5.21e-20]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 4.91e-20]",
+    "flux_Z_width": "[+/- 4.37e-20]"
+   },
+   {
+    "l": 3,
+    "w": "0.05",
+    "Gamma_RW": "[1.50835834180730818194e-13 +/- 4.50e-34]",
+    "Gamma_Z": "[1.50835834180730818194e-13 +/- 5.69e-34]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 1.53e-8]",
+    "flux_Z_width": "[+/- 2.45e-8]"
+   },
+   {
+    "l": 3,
+    "w": "0.2",
+    "Gamma_RW": "[7.2841382384114701005e-8 +/- 3.31e-28]",
+    "Gamma_Z": "[7.2841382384114701005e-8 +/- 3.34e-28]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 2.47e-14]",
+    "flux_Z_width": "[+/- 2.63e-14]"
+   },
+   {
+    "l": 3,
+    "w": "0.37",
+    "Gamma_RW": "[0.000203535667156996595979 +/- 7.55e-25]",
+    "Gamma_Z": "[0.000203535667156996595979 +/- 7.56e-25]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 3.42e-17]",
+    "flux_Z_width": "[+/- 3.47e-17]"
+   },
+   {
+    "l": 3,
+    "w": "0.6",
+    "Gamma_RW": "[0.48640650107255397356 +/- 5.47e-21]",
+    "Gamma_Z": "[0.48640650107255397356 +/- 5.38e-21]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 2.98e-20]",
+    "flux_Z_width": "[+/- 2.78e-20]"
+   },
+   {
+    "l": 3,
+    "w": "1.0",
+    "Gamma_RW": "[0.999996573961077569 +/- 5.02e-19]",
+    "Gamma_Z": "[0.9999965739610775695 +/- 9.85e-20]",
+    "overlap": true,
+    "flux_RW_contains_0": true,
+    "flux_Z_contains_0": true,
+    "flux_RW_width": "[+/- 6.61e-20]",
+    "flux_Z_width": "[+/- 6.37e-20]"
+   }
+  ],
+  "outcome": "PASS"
+ },
+ "PH5": {
+  "points": [
+   {
+    "w": "[0.0010000 +/- 3e-12]",
+    "Gamma_over_16w2_minus_1": "[0.006399818824 +/- 2.01e-13]",
+    "tol": "[0.0100 +/- 1e-9]",
+    "certified_within": true,
+    "flux_contains_0": true
+   },
+   {
+    "w": "[1.0000e-6 +/- 3e-15]",
+    "Gamma_over_16w2_minus_1": "[6.283403e-6 +/- 4.24e-13]",
+    "tol": "[1.00e-5 +/- 1e-12]",
+    "certified_within": true,
+    "flux_contains_0": true
+   }
+  ],
+  "outcome": "PASS"
+ },
+ "PH6": {
+  "outcome": "INCONCLUSIVE",
+  "reason": "values not computed"
+ },
+ "sec": 358.6
+}

@@ -1,0 +1,11 @@
+Privacy scan of certified-page-time (staging copy), 2026-11-17.
+Scope: every file in the repository except this one (90 files), read as text; every hex-looking run of 8 or
+more hex digits decoded as hex (8829 runs, sha256 digests included); every base64-looking run of 16 or more
+characters decoded as base64 (4889 runs).
+Checked for: the lab owner's name, home-folder paths (including a session cache dot-folder), AI or product
+names, and local lab paths in clear text. The patterns are kept outside the repository, since they contain
+the name. tools/path_patch.json still encodes lab project-folder names by design (PATCHES.md); these
+are counted separately below and are not findings unless they also match one of the first three patterns.
+Encoded lab project-folder names (expected, no person or home folder): 7
+Findings: 0
+Result: CLEAN

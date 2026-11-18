@@ -1,0 +1,31 @@
+17:14:41 CONTROLS v2 start, instrument sha256 3aa86d51883dfa38af5c0ca84d3d3ddf1479ea79bdc2d2ea9f905191a01ff6fb
+17:14:42 C1_PH5 -> PASS (0.1s)
+17:14:42 C2_PH4_one_freq -> PASS (0.1s)
+17:14:42 C4_cap_refusal -> PASS (0.0s)
+17:14:42 C9_large_l_lemma -> PASS (0.0s)
+17:14:52 C12_v1_failing_panels -> PASS (10.3s)
+17:14:59 C13_v1_v2_quadrature_agree -> PASS (7.5s)
+17:15:30 C14_panel_fallback_teeth -> PASS (31.0s)
+17:15:50 C15_channel_fallback -> PASS (19.1s)
+17:16:38 C5_checkpoint_resume -> PASS (48.3s)
+17:17:50 C6_recon_channel_s1_l2 -> PASS (71.8s)
+17:19:48 probe s=1 l=1: OK, 55 panels (0 skipped, 0 fallback), 117.9s, max panel 2.47s
+17:21:00 probe s=1 l=2: OK, 35 panels (0 skipped, 0 fallback), 72.3s, max panel 1.72s
+17:21:53 probe s=1 l=3: OK, 25 panels (0 skipped, 0 fallback), 53.3s, max panel 1.67s
+17:22:35 probe s=1 l=4: OK, 19 panels (0 skipped, 0 fallback), 42.0s, max panel 1.79s
+17:23:09 probe s=1 l=5: OK, 15 panels (0 skipped, 0 fallback), 33.9s, max panel 1.69s
+17:23:38 probe s=1 l=6: OK, 12 panels (0 skipped, 0 fallback), 28.5s, max panel 1.88s
+17:24:02 probe s=1 l=7: OK, 10 panels (0 skipped, 0 fallback), 24.6s, max panel 1.96s
+17:24:23 probe s=1 l=8: OK, 8 panels (0 skipped, 0 fallback), 21.2s, max panel 2.20s
+17:24:40 probe s=1 l=9: OK, 7 panels (1 skipped, 0 fallback), 17.2s, max panel 2.25s
+17:26:01 probe s=2 l=2: OK, 38 panels (0 skipped, 0 fallback), 80.8s, max panel 1.96s
+17:26:57 probe s=2 l=3: OK, 26 panels (0 skipped, 0 fallback), 56.0s, max panel 1.78s
+17:27:43 probe s=2 l=4: OK, 20 panels (0 skipped, 0 fallback), 45.7s, max panel 1.97s
+17:28:18 probe s=2 l=5: OK, 15 panels (0 skipped, 0 fallback), 34.9s, max panel 2.17s
+17:28:46 probe s=2 l=6: OK, 12 panels (0 skipped, 0 fallback), 28.6s, max panel 2.28s
+17:29:10 probe s=2 l=7: OK, 10 panels (0 skipped, 0 fallback), 23.8s, max panel 1.90s
+17:29:30 probe s=2 l=8: OK, 8 panels (0 skipped, 0 fallback), 20.0s, max panel 2.05s
+17:29:49 probe s=2 l=9: OK, 7 panels (0 skipped, 0 fallback), 18.5s, max panel 2.11s
+17:31:08 FULL probe: 798 s; tails 102 channels (0 failures) 79 s; lemma OK; projected main 808 s
+17:31:08 P_full_probe -> DONE (798.3s)
+17:31:08 CONTROLS v2 done in 986.5s -> controls_hk1b.json

@@ -1,0 +1,210 @@
+{
+ "note": "Reversible lab-path substitution; see PATCHES.md. The original strings are stored hex-encoded (encoded, not hidden: anyone can decode them); they are lab folder names only. The owner name and a home-folder path were removed irreversibly instead (PATCHES.md, \"Redacted\").",
+ "table": [
+  {
+   "id": "R1",
+   "original_hex": "443a5c5c5f4c4956455c5c4841574b494e47",
+   "placeholder": "<LAB-JSON>",
+   "what": "lab project root, JSON-escaped Windows form"
+  },
+  {
+   "id": "R2",
+   "original_hex": "443a2f5f4c4956452f504f434b45544c41422f6c61622f746f6f6c732f6d656d6361702e7079",
+   "placeholder": "<MEMCAP>",
+   "what": "the lab's memory-cap launcher"
+  },
+  {
+   "id": "R3",
+   "original_hex": "443a2f5f4c4956452f5245434f4e2d454d455247454e54",
+   "placeholder": "<RECON>",
+   "what": "the lab's earlier reconnaissance project folder"
+  },
+  {
+   "id": "R4",
+   "original_hex": "443a2f5f4c4956452f4841574b494e47",
+   "placeholder": "<LAB>",
+   "what": "lab project root, forward-slash form"
+  },
+  {
+   "id": "R5",
+   "original_hex": "643a2f5f6c6976652f6861776b696e67",
+   "placeholder": "<lab>",
+   "what": "lab project root, lower-case form (ledger rows)"
+  },
+  {
+   "id": "R6",
+   "original_hex": "643a2f5f6c6976652f7265636f6e2d656d657267656e74",
+   "placeholder": "<recon>",
+   "what": "reconnaissance folder, lower-case form (ledger rows)"
+  },
+  {
+   "id": "R9",
+   "original_hex": "443a2f5f4c4956452f504f434b45544c41422f6c61622f746f6f6c732f6c61622e7079",
+   "placeholder": "<LABTOOL>",
+   "what": "the lab's own command-line tool (gate lines)"
+  }
+ ],
+ "root_ids": [
+  "R1",
+  "R4",
+  "R5"
+ ],
+ "files": {
+  "code/RUN-HK1b.md": {
+   "original_sha256": "fead7afd031b0c60e5244ae424143fec8d9b47f0bc0d097691168150124ef00b",
+   "patched_sha256": "142427d6a22757e2af2ed8cea5d6d166decaf4ced79ba8737d0a45c1e48745c6",
+   "entries": {
+    "R2": 1,
+    "R4": 1
+   }
+  },
+  "code/RUN.md": {
+   "original_sha256": "3fa3b5f0be0b71150ad9140864c1bc2db5ef2e47d192c52c6cf2dd3d3553f5d9",
+   "patched_sha256": "5c827cd3cd18162cecd7092ee0724e2dbbbbe11d653713ca4b5645b52c85f0ac",
+   "entries": {
+    "R2": 1,
+    "R4": 2
+   }
+  },
+  "code/hk1_cert.py": {
+   "original_sha256": "8fc13b9fb3528ad4777f16eb41b0366ea4d51a5d79569ab9f48943a1a520a5d7",
+   "patched_sha256": "6dabec4c2a62819678bc36566f7686c266505976b81c2d148c4503de7b53f39c",
+   "entries": {
+    "R3": 1,
+    "R4": 1
+   }
+  },
+  "code/hk1b_cert.py": {
+   "original_sha256": "b3eaf122527162edb97f6b94c58ed9fb443e6237b17acefe8f25c35c314c0bfd",
+   "patched_sha256": "2d29efb06573d7adbb11667ca1fa9daa08dfcef30d9f06bb08e61b0f83995526",
+   "entries": {
+    "R3": 1
+   }
+  },
+  "code/hkcore.py": {
+   "original_sha256": "67cde61d4c629f59c1c64bc76f1389c577c210062fd7d157416ac57e6397665b",
+   "patched_sha256": "25318849f28f3c5253f9721afbf01dab88f650232c521710cfc4c0d888f36726",
+   "entries": {
+    "R3": 1
+   }
+  },
+  "proofs/PROOF.md": {
+   "original_sha256": "df013d34fb60989155f4d5385c58b9ff730c9be8bd4e61c72ed75200c7d4eb7e",
+   "patched_sha256": "ef6d9a7048315ae20f87ea1138a775b9f717f29ecfe0ba8ca2acb73186b3c5b6",
+   "entries": {
+    "R3": 1
+   },
+   "redacted": "release fix: the stored radius 7.81e-11, not the rounded-down 7.8e-11",
+   "lab_original_sha256": "c61a8edae641ff9523993d5fa1b45770631309791924945a52e5c1e167786fb6"
+  },
+  "results/blind/BLIND-REPORT.md": {
+   "original_sha256": "84c6c8f85d844e7efe1f8d57cc9d41ec2979283b028ed5fc59e588fa8b7cef16",
+   "patched_sha256": "4107b1373d0b480c33dc79d311340b77f9353f3407ad003fe81a8028bda99a78",
+   "entries": {
+    "R4": 1
+   },
+   "redacted": "home-folder cache path",
+   "lab_original_sha256": "a957d2745efa7bc5bb5f2c0f3cca99a42d490904ccca7ce570818dcd5d05a25f"
+  },
+  "results/hk1/result_hk1.json": {
+   "original_sha256": "9334782d4b55c4c179f1db07831364a416c722671faeaec22f57bfba22f4d66d",
+   "patched_sha256": "4b408872aad3031f5ad78997a03b987201631f400b64eea7fc431fae053bebc4",
+   "entries": {
+    "R1": 13
+   }
+  },
+  "results/hk1b/rescore_hk1b.json": {
+   "original_sha256": "485d9e4967b963e30962e4e87338d41383d99606623159b01a13fd86bcb27cf5",
+   "patched_sha256": "174e7cd456d1c4a4c7ee659c9b0c865495ddea7510197b4493191d83b0f114bc",
+   "entries": {
+    "R1": 1
+   }
+  },
+  "results/referee/REFEREE-HK1b.md": {
+   "original_sha256": "3144832d100f81dfde1607a423bd57970858c8d2170bd19651147fe1fe66ae32",
+   "patched_sha256": "dc615343595f6ee52a1b1abcc02a431309e698c1fffbbedc6aa9b9fc101c3d77",
+   "entries": {
+    "R4": 1
+   }
+  },
+  "results/seals/BAR-HK-1.md": {
+   "original_sha256": "76f20554e96093f273ecfca5656887248616e56229f6bd47d853ead9e08b95ed",
+   "patched_sha256": "058e72d623ab4f380c416529474cbd2bf6ca17306defa1f51dfc67111e04ae9e",
+   "entries": {
+    "R3": 2
+   },
+   "redacted": "owner name",
+   "lab_original_sha256": "b777b10bd12e08166ed3e693f518b67ae225c7a3faf1e25b4e7fb926d5fd865a"
+  },
+  "results/seals/BAR-HK-1b.md": {
+   "original_sha256": "312d2a3c0b58e318c07cbc9274ff4608ead05a13efdd5008e6488645a2201b27",
+   "patched_sha256": "eb402592d943ec855048305b51c6d23182962f83bb365e8a59eefbc12eeaa659",
+   "entries": {
+    "R3": 2
+   },
+   "redacted": "owner name",
+   "lab_original_sha256": "8fc850c00365791dac9a0e0a97dfda1bbfa5258f6db237fe6d5eebf13a17d208"
+  },
+  "results/ledger-hawking.json": {
+   "original_sha256": "9de626bd1f71ab4d08c1605a0ff9f737c8a5bb64b1108907b521d30cd64860b6",
+   "patched_sha256": "51af1179f82088a8f6d515eaaa9c501e0181a97c5c8be1d90e583e2e981225ca",
+   "entries": {
+    "R5": 41,
+    "R6": 2
+   }
+  },
+  "results/blind/code/combine.py": {
+   "original_sha256": "afcfb835858e0952465f89944a3786edc7ff563b33eb32e90f7396b6907ac8af",
+   "patched_sha256": "ff741af0d5844a09400afea1fca8aa69aff8595b7e3636020ac9de35f53bfb11",
+   "entries": {
+    "R4": 1
+   }
+  },
+  "results/blind/code/controls.py": {
+   "original_sha256": "2b31a7f82b29b3915119da515708c83e3de2038803c4f50d5e01e66cff90d5a4",
+   "patched_sha256": "8a1578a30233550eabcb1dabd0cb693af91515e85c5f9fb0e34359dafb819685",
+   "entries": {
+    "R4": 2
+   }
+  },
+  "results/blind/code/make_results.py": {
+   "original_sha256": "d65527e3c217c9282158d644e74c592126021c5ff5bf797f4bc3f466708bd91c",
+   "patched_sha256": "8a3f838deba0e3244c3c54936d8b2f183438bc4d6e0131e2e755fee94d0c7d53",
+   "entries": {
+    "R4": 3
+   }
+  },
+  "results/blind/code/run_spin.py": {
+   "original_sha256": "27e9fef1b35e2ce43ec740b6418b9d536065740442c191db336f6fd242903283",
+   "patched_sha256": "81577c31a5502edd46e74bcc47cd8f4e4765db501147b68d307c72ed8606ecd8",
+   "entries": {
+    "R4": 1
+   }
+  },
+  "results/blind/code/unitarity_fit.py": {
+   "original_sha256": "21fb3ac040ccfe192915c96b85714689f2069481c89e6b89671d65dee6fe6bba",
+   "patched_sha256": "0095500f5be1b2a539f31969d5a58c1df34e1b300c71288d199700fca254558a",
+   "entries": {
+    "R4": 2
+   }
+  },
+  "results/prior-art/gate-1/GATE-HAWKING.md": {
+   "original_sha256": "c0ec7194bf56996f536f55b9727b92f8d9063131d4e9221eab68dcb57e5c3406",
+   "patched_sha256": "d5eef828de3c239d6434359d907346afe47f74849e02db5503b3c6c67cb8d71c",
+   "entries": {
+    "R2": 4,
+    "R4": 8,
+    "R9": 4
+   }
+  },
+  "results/prior-art/gate-2/GATE-REFRESH.md": {
+   "original_sha256": "3ff93203f4b952fe65dad7c5a3d93e46853357d779a57786020649f391bd0114",
+   "patched_sha256": "bc76f5bbf6a832b2978fa627dcbb0de948c9e559e307a93b1948d846c2476e3e",
+   "entries": {
+    "R2": 5,
+    "R4": 10,
+    "R9": 5
+   }
+  }
+ }
+}

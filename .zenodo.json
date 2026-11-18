@@ -1,0 +1,32 @@
+{
+  "upload_type": "software",
+  "title": "When does a black hole stop being a one-way door? Certified Page evaporation constants for a Schwarzschild black hole emitting photons and gravitons",
+  "creators": [
+    {
+      "name": "Moki & Julio"
+    }
+  ],
+  "description": "<p><strong>In plain words.</strong> A black hole glows faintly and slowly evaporates. In Page's model (a non-rotating black hole emitting photons and gravitons into empty space), for every unit of entropy it loses, its radiation carries away about 1.4847 units; this ratio, beta, fixes the Page time, the moment the radiation holds as much entropy as the black hole has left: if no information is lost, the moment the black hole must start giving it back. In 2013 Don Page printed beta as 1.48472 and left its last digits as a challenge. We computed it with ball arithmetic, in which every number carries a guaranteed error bar, so the result is a proof, not an estimate.</p><p><strong>Results (computer-assisted).</strong> To our knowledge, the first certified (interval-arithmetic, rigorously error-bounded) enclosures of Page's evaporation constants for a Schwarzschild black hole emitting photons and gravitons into empty space: beta = 1.4846916919 +- 7.81e-11 and Page time t*/t_decay = 0.5381024532 +- 8.99e-11, together with certified photon power, total power alpha and photon and graviton entropy rates (search of arXiv, INSPIRE and Zenodo to 17 November 2026). The graviton power, and so the graviton part of alpha, was certified earlier by Newton (Zenodo 10.5281/zenodo.22800587) to 1% width; our independent enclosure lies inside his interval and is about seven orders of magnitude narrower. The result settles the digits Page (2013) flagged as uncertain.</p><p><strong>Not claimed.</strong> Only Page's model (non-rotating, uncharged, photons and gravitons, empty space; no neutrinos or massive species). Nothing about the information paradox beyond Page's closed-form definitions. The proofs are refereed by internal seats, not machine-checked; trust base Arb via python-flint 0.9.0 and CPython 3.11.</p><p><strong>Checks.</strong> 2 sealed tests (1 HOLD, 1 FAILED first attempt; both listed), two internal hostile referee rounds (internal lab checks, not external peer review), a blind second implementation by a different, non-rigorous method (Teukolsky equation, Mano-Suzuki-Takasugi series) whose values all lie inside the certified boxes, and a reproduction script that re-runs the sealed computation.</p><p><strong>Open doors.</strong> Certified constants and Page time for spinning (Kerr) black holes, which Newton names as his next step. Neutrinos and lighter black holes, where beta changes; our engine treats integer spins only. Machine-checking the finite inequalities of the proof in a proof assistant.</p><p>Prepared with AI assistance; what was checked, and by what, is stated above.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "language": "eng",
+  "keywords": [
+    "Hawking radiation",
+    "Page time",
+    "black hole entropy",
+    "greybody factors",
+    "Schwarzschild black hole",
+    "Regge-Wheeler equation",
+    "computer-assisted proof",
+    "interval arithmetic",
+    "ball arithmetic",
+    "rigorous numerics",
+    "general relativity"
+  ],
+  "related_identifiers": [
+    {"relation": "isSupplementedBy", "identifier": "https://github.com/Hashirama1337s/certified-page-time", "scheme": "url"},
+    {"relation": "references", "identifier": "10.5281/zenodo.22800587", "scheme": "doi"},
+    {"relation": "references", "identifier": "arXiv:1301.4995", "scheme": "arxiv"}
+  ]
+}

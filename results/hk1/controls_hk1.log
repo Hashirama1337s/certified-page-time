@@ -1,0 +1,33 @@
+16:54:32 CONTROLS start, instrument sha256 04e22276661daf64f9d922eddf03d88cd09703123564abda0f740a39a9517795
+16:54:32 C1_PH5 -> PASS (0.1s)
+16:54:32 C2_PH4_one_freq -> PASS (0.1s)
+16:54:32 C3_flux_teeth -> PASS (0.2s)
+16:54:32 C4_cap_refusal -> PASS (0.0s)
+16:54:32 C9_large_l_lemma -> PASS (0.0s)
+16:54:32 C8_wrong_potential_point -> PASS (0.1s)
+16:54:33 C10_band_bound_soundness -> PASS (0.9s)
+16:54:37 C11_TM_vs_point -> PASS (4.0s)
+16:55:20 tail s=1 (l > 1): P <= [1.8207e-5 +/- 3.12e-10], S <= [0.00061437 +/- 4.95e-9]
+16:55:20 C7_PH6_crude_probe -> PROBE-ONLY (42.8s)
+16:56:09 C5_checkpoint_resume -> PASS (49.2s)
+16:57:18 C6_recon_channel_s1_l2 -> PASS (68.9s)
+16:57:52 probe s=1 l=1: 55 panels, 1.44s/1.89s per panel -> 135s
+16:58:16 probe s=1 l=2: 35 panels, 1.32s/1.64s per panel -> 78s
+16:58:34 probe s=1 l=3: 25 panels, 1.30s/1.52s per panel -> 53s
+16:58:49 probe s=1 l=4: 19 panels, 1.37s/1.46s per panel -> 40s
+16:59:02 probe s=1 l=5: 15 panels, 1.40s/1.49s per panel -> 32s
+16:59:13 probe s=1 l=6: 12 panels, 1.47s/1.53s per panel -> 26s
+16:59:23 probe s=1 l=7: 10 panels, 1.60s/1.56s per panel -> 23s
+16:59:32 probe s=1 l=8: 8 panels, 1.78s/1.69s per panel -> 20s
+16:59:41 probe s=1 l=9: 7 panels, 2.14s/1.83s per panel -> 20s
+17:00:06 probe s=2 l=2: 38 panels, 1.35s/1.69s per panel -> 87s
+17:00:25 probe s=2 l=3: 26 panels, 1.31s/1.55s per panel -> 56s
+17:00:40 probe s=2 l=4: 20 panels, 1.33s/1.50s per panel -> 43s
+17:00:53 probe s=2 l=5: 15 panels, 1.40s/1.47s per panel -> 32s
+17:01:04 probe s=2 l=6: 12 panels, 1.49s/1.55s per panel -> 26s
+17:01:13 probe s=2 l=7: 10 panels, 1.60s/1.58s per panel -> 23s
+17:01:23 probe s=2 l=8: 8 panels, 1.79s/1.71s per panel -> 20s
+17:01:31 probe s=2 l=9: 7 panels, 2.15s/1.83s per panel -> 20s
+17:01:32 projected main: 832 s (13.9 min); probe took 254 s
+17:01:32 P1_timing_probe -> DONE (254.4s)
+17:01:32 CONTROLS done in 420.6s -> controls_hk1.json

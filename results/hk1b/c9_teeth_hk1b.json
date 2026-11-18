@@ -1,0 +1,89 @@
+{
+ "A_honest": {
+  "Gs": "[1.7142737 +/- 3.99e-8]",
+  "K": "[7.7371e+25 +/- 2.53e+20]",
+  "P_tail": "[2.0645e-20 +/- 1.61e-25]",
+  "S_tail": "[1.7504e-15 +/- 1.64e-20]",
+  "ok": true
+ },
+ "B_soundness": {
+  "rows": [
+   {
+    "s": 1,
+    "l": 61,
+    "w": "0.50000000",
+    "Gamma_point": "[2.96299e-274 +/- 2.17e-280]",
+    "eps_lemma": "[1.654e-19 +/- 2.62e-23]",
+    "sound": true,
+    "eps_falsified": "[8.359e-179 +/- 7.34e-184]",
+    "falsified_violated": false
+   },
+   {
+    "s": 1,
+    "l": 61,
+    "w": "3.0000000",
+    "Gamma_point": "[8.66710e-157 +/- 3.20e-163]",
+    "eps_lemma": "[1.654e-19 +/- 2.62e-23]",
+    "sound": true,
+    "eps_falsified": "[8.359e-179 +/- 7.34e-184]",
+    "falsified_violated": true
+   },
+   {
+    "s": 1,
+    "l": 61,
+    "w": "6.0000000",
+    "Gamma_point": "[2.11063e-92 +/- 4.28e-98]",
+    "eps_lemma": "[1.654e-19 +/- 2.62e-23]",
+    "sound": true,
+    "eps_falsified": "[8.359e-179 +/- 7.34e-184]",
+    "falsified_violated": true
+   },
+   {
+    "s": 2,
+    "l": 61,
+    "w": "6.0000000",
+    "Gamma_point": "[2.33136e-92 +/- 4.51e-98]",
+    "eps_lemma": "[1.654e-19 +/- 2.62e-23]",
+    "sound": true,
+    "eps_falsified": "[8.359e-179 +/- 7.34e-184]",
+    "falsified_violated": true
+   },
+   {
+    "s": 2,
+    "l": 61,
+    "w": "2.0000000",
+    "Gamma_point": "[2.94603e-187 +/- 2.06e-193]",
+    "eps_lemma": "[1.654e-19 +/- 2.62e-23]",
+    "sound": true,
+    "eps_falsified": "[8.359e-179 +/- 7.34e-184]",
+    "falsified_violated": false
+   },
+   {
+    "s": 1,
+    "l": 80,
+    "w": "[7.9003906 +/- 2.50e-8]",
+    "Gamma_point": "[6.98535e-120 +/- 3.75e-126]",
+    "eps_lemma": "[1.183e-33 +/- 3.47e-37]",
+    "sound": true,
+    "eps_falsified": "[2.189e-235 +/- 2.86e-239]",
+    "falsified_violated": true
+   },
+   {
+    "s": 2,
+    "l": 75,
+    "w": "[7.4003906 +/- 2.50e-8]",
+    "Gamma_point": "[1.29697e-112 +/- 3.49e-118]",
+    "eps_lemma": "[6.246e-30 +/- 1.14e-34]",
+    "sound": true,
+    "eps_falsified": "[1.699e-220 +/- 4.84e-225]",
+    "falsified_violated": true
+   }
+  ],
+  "ok": true
+ },
+ "C_reason": "large-l lemma: band [[0.18095 +/- 2.39e-6], [0.19000 +/- 1e-10]] not certified",
+ "C_teeth_refusal": true,
+ "D_teeth_falsified_caught": true,
+ "outcome": "PASS",
+ "sec": 1.8
+}

@@ -1,0 +1,189 @@
+# QUERIES.log - prior-art gate HAWKING, gate-1, 2026-11-17. Block shape. Controls tagged '# control'.
+# Note: first batch run (SSL error, no TOTALs) discarded; zenodo "Regge-Wheeler" re-run in batch5 after IncompleteRead.
+# Instrument note: INSPIRE fulltext:"1.4847" (32 hits) does NOT return 2502.04430, which prints 1.48471; fulltext:"1.48471" does (exact-token match).
+== inspire: t:"greybody factors" # control
+TOTAL 142
+== inspire: t:"Hawking radiation" and t:"interval arithmetic"
+TOTAL 0
+== inspire: abstracts.value:"interval arithmetic" and abstracts.value:"black hole"
+TOTAL 0
+== inspire: abstracts.value:"computer-assisted proof" and abstracts.value:"black hole"
+TOTAL 0
+== inspire: abstracts.value:"rigorous" and abstracts.value:"greybody"
+TOTAL 47
+== inspire: abstracts.value:"rigorous" and abstracts.value:"graybody"
+TOTAL 1
+== inspire: abstracts.value:"validated numerics"
+TOTAL 1
+== inspire: abstracts.value:"certified" and abstracts.value:"quasinormal"
+TOTAL 2
+== inspire: abstracts.value:"rigorous bounds" and abstracts.value:"transmission"
+TOTAL 6
+== inspire: t:"bounding" and t:"greybody"
+TOTAL 14
+== inspire: t:"rigorous" and t:"Hawking"
+TOTAL 3
+== inspire: abstracts.value:"high precision" and abstracts.value:"greybody"
+TOTAL 3
+== inspire: abstracts.value:"Page time" and abstracts.value:"photons and gravitons"
+TOTAL 0
+== inspire: fulltext:"1.48469"
+TOTAL 2
+== inspire: fulltext:"1.4846"
+TOTAL 19
+== inspire: fulltext:"3.7475"
+TOTAL 13
+== inspire: fulltext:"0.538102"
+TOTAL 0
+== inspire: fulltext:"1.48472" # control
+TOTAL 5
+== inspire: fulltext:"3.3638"
+TOTAL 8
+== inspire: fulltext:"interval arithmetic" and fulltext:"greybody"
+TOTAL 2
+== inspire: fulltext:"interval arithmetic" and fulltext:"Regge-Wheeler"
+TOTAL 3
+== inspire: fulltext:"interval arithmetic" and fulltext:"Hawking radiation"
+TOTAL 0
+== arxiv: all:"interval arithmetic" AND all:"black hole"
+TOTAL 0
+== arxiv: all:"computer-assisted" AND all:"black hole"
+TOTAL 3
+== arxiv: all:rigorous AND all:greybody
+TOTAL 34
+== arxiv: all:rigorous AND all:graybody
+TOTAL 1
+== arxiv: all:certified AND all:"quasinormal"
+TOTAL 5
+== arxiv: abs:"greybody factors" AND abs:Schwarzschild AND abs:precision
+TOTAL 4
+== arxiv: abs:"Hawking radiation" AND abs:"photons and gravitons" AND abs:entropy # control
+TOTAL 1
+== arxiv: all:"validated numerics" AND all:"black hole"
+TOTAL 2
+== arxiv: all:"Page time" AND all:"Hawking radiation" AND all:precision
+TOTAL 4
+== arxiv: abs:"absorption cross section" AND abs:Schwarzschild AND abs:"high accuracy"
+TOTAL 1
+== zenodo: "greybody factor"
+TOTAL 16
+== zenodo: "greybody factors"
+TOTAL 43
+== zenodo: "graybody"
+TOTAL 6
+== zenodo: "Hawking radiation" AND "interval arithmetic"
+TOTAL 4
+== zenodo: "Page time" AND "black hole"
+TOTAL 83
+== zenodo: "1.48469"
+TOTAL 0
+== zenodo: "Hawking radiation" AND rigorous
+TOTAL 154
+== zenodo: "Hawking radiation" AND certified
+TOTAL 17
+== arxiv: all:GrayHawk
+TOTAL 5
+== arxiv: abs:"Page factors"
+TOTAL 1
+== arxiv: abs:"Page factor" AND abs:Schwarzschild
+TOTAL 1
+== arxiv: abs:"greybody" AND abs:"Mano"
+TOTAL 0
+== arxiv: all:"MST" AND abs:"greybody"
+TOTAL 0
+== arxiv: abs:"Teukolsky" AND abs:"interval"
+TOTAL 2
+== arxiv: abs:"rigorous" AND abs:"Regge-Wheeler"
+TOTAL 5
+== arxiv: abs:"Hawking" AND abs:"arbitrary precision"
+TOTAL 0
+== arxiv: abs:"greybody" AND abs:"arbitrary precision"
+TOTAL 0
+== arxiv: abs:"quasinormal" AND abs:"rigorous numerics"
+TOTAL 2
+== arxiv: abs:"quasinormal" AND abs:"computer-assisted"
+TOTAL 0
+== arxiv: abs:"interval arithmetic" AND abs:gravit
+TOTAL 1
+== arxiv: abs:"Hawking radiation" AND abs:"Schwarzschild" AND abs:"high precision"
+TOTAL 0
+== arxiv: ti:"black hole" AND abs:"interval arithmetic"
+TOTAL 0
+== arxiv: abs:"photon" AND abs:"graviton" AND abs:"emission rate" AND abs:"Schwarzschild"
+TOTAL 0
+== inspire: fulltext:"1.48471"
+TOTAL 3
+== inspire: fulltext:"1.4847"
+TOTAL 32
+== inspire: refersto:recid:2877688
+TOTAL 14
+== inspire: abstracts.value:"greybody" and abstracts.value:"confluent Heun"
+TOTAL 4
+== inspire: abstracts.value:"greybody" and abstracts.value:"Nekrasov"
+TOTAL 1
+== inspire: t:"Quantum Resonance as a Global Connection Problem"
+TOTAL 1
+== inspire: abstracts.value:"Mano" and abstracts.value:"convergence" and abstracts.value:"Teukolsky"
+TOTAL 2
+== inspire: abstracts.value:"rigorous" and abstracts.value:"quasinormal" and abstracts.value:"existence"
+TOTAL 3
+== inspire: abstracts.value:"Hawking radiation" and abstracts.value:"photons and gravitons"
+TOTAL 3
+== inspire: refersto:recid:2893856
+TOTAL 14
+== arxiv: abs:"rigorous" AND abs:"D-finite"
+TOTAL 6
+== arxiv: abs:"connection coefficients" AND abs:"rigorous" AND abs:"Heun"
+TOTAL 0
+== arxiv: abs:"validated" AND abs:"Heun"
+TOTAL 27
+== arxiv: all:"interval arithmetic" AND all:"Schwarzschild"
+TOTAL 0
+== arxiv: all:"ball arithmetic" AND all:"black hole"
+TOTAL 0
+== zenodo: "Regge-Wheeler"
+TOTAL 57
+== zenodo: "Hawking radiation" # control
+TOTAL 1697
+== zenodo: "emission rates" AND "black hole" AND photons AND gravitons
+TOTAL 0
+== zenodo: "Page" AND "evaporation" AND "photons and gravitons"
+TOTAL 0
+== zenodo: "1.48471"
+TOTAL 2
+== zenodo: "1.48472"
+TOTAL 1
+== zenodo: "greybody" AND "interval"
+TOTAL 3
+== zenodo: Schwarzschild AND "greybody" AND "high precision"
+TOTAL 1
+== zenodo: "computer-assisted proof" AND "black hole"
+TOTAL 8
+== zenodo: creators.name:"Newton, Tony"
+TOTAL 149
+== zenodo: "Newton Astro Labs"
+TOTAL 0
+== zenodo: "proof-carrying" AND Hawking
+TOTAL 4
+== zenodo: "proof-carrying" AND Schwarzschild
+TOTAL 2
+== zenodo: "photon luminosity" AND Schwarzschild AND certified
+TOTAL 0
+== zenodo: "Hawking" AND "Arb"
+TOTAL 4
+== zenodo: "greybody" AND "ball arithmetic"
+TOTAL 1
+== zenodo: "Page" AND "Hawking" AND "enclosure"
+TOTAL 5
+== inspire: refersto:recid:1215583 # control
+TOTAL 411
+== inspire: refersto:recid:113270
+TOTAL 1544
+== inspire: refersto:recid:658199
+TOTAL 408
+== inspire: refersto:recid:788201
+TOTAL 164
+== web: "Page time" Schwarzschild photons gravitons beta 1.4847 recomputed higher precision # control
+TOTAL 10
+== web: certified enclosure Hawking radiation Schwarzschild photon greybody interval arithmetic Page constant
+TOTAL 10

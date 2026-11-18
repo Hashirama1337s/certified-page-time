@@ -1,0 +1,135 @@
+{
+ "note": "Every shipped file whose sha256 the lab ledger recorded (results/ledger-hawking.json).",
+ "pins": [
+  {
+   "path": "code/hk1_cert.py",
+   "sha256": "8fc13b9fb3528ad4777f16eb41b0366ea4d51a5d79569ab9f48943a1a520a5d7",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "hk1_cert.py"
+  },
+  {
+   "path": "code/hk1b_cert.py",
+   "sha256": "b3eaf122527162edb97f6b94c58ed9fb443e6237b17acefe8f25c35c314c0bfd",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "hk1b_cert.py"
+  },
+  {
+   "path": "code/hk1b_channel.py",
+   "sha256": "ec3773729b91757a7c9ae7e61e4464591fa6a7743d45a0e2aa6b7c0942910aa8",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "hk1b_channel.py"
+  },
+  {
+   "path": "code/hk1b_quad.py",
+   "sha256": "09b3f2ed9546c12ccbe98ee0103d02d095d812b573646acedf3805e3f071a949",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "hk1b_quad.py"
+  },
+  {
+   "path": "code/hkbounds.py",
+   "sha256": "0f0af91665f312cec35081080234afdadd7864694b277ddf68c540bdbf373a85",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "hkbounds.py"
+  },
+  {
+   "path": "code/hkchannel.py",
+   "sha256": "31c6c0781f7f5b4fffb407fd6cc3329877019d272075ca7594cd76ae513918d6",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "hkchannel.py"
+  },
+  {
+   "path": "code/hkcore.py",
+   "sha256": "67cde61d4c629f59c1c64bc76f1389c577c210062fd7d157416ac57e6397665b",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "hkcore.py"
+  },
+  {
+   "path": "code/hkquad.py",
+   "sha256": "22289f8bc6f63c787c3fed3242335800da3ae13220eb4a2b3d5e0d7374c0669e",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "hkquad.py"
+  },
+  {
+   "path": "code/sym_checks.py",
+   "sha256": "63ee91fba78b6be08880769b9a42bf20d507a831c7a12a4994976843c7fc88ce",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/instruments",
+   "lab_name": "sym_checks.py"
+  },
+  {
+   "path": "results/hk1/controls_hk1.json",
+   "sha256": "a1f6404c3a6d1a0db0d78e8b40fb76feca0bb1bcc607e8acc156676c87e757a0",
+   "seal_id": "53d448f307",
+   "ledger_row": "go/controls",
+   "lab_name": "controls_hk1.json"
+  },
+  {
+   "path": "results/hk1/main_hk1.log",
+   "sha256": "3c80f817444c7b53e1d3a893b2674390e3edd9bea489c74b99e8a22124efffe5",
+   "seal_id": "53d448f307",
+   "ledger_row": "settle/results",
+   "lab_name": "main_hk1.log"
+  },
+  {
+   "path": "results/hk1/result_hk1.json",
+   "sha256": "9334782d4b55c4c179f1db07831364a416c722671faeaec22f57bfba22f4d66d",
+   "seal_id": "53d448f307",
+   "ledger_row": "settle/results",
+   "lab_name": "result_hk1.json"
+  },
+  {
+   "path": "results/hk1b/controls_hk1b.json",
+   "sha256": "e20955efc0c8fee1a299117a737a415221e7d15dda414ef955b5196b821d35ed",
+   "seal_id": "2040a9985f",
+   "ledger_row": "go/controls",
+   "lab_name": "controls_hk1b.json"
+  },
+  {
+   "path": "results/hk1b/main_hk1b.log",
+   "sha256": "0a14c53a7ab555ccb89754827ace9594b4062aec730ad9a398c35bebbe6ea091",
+   "seal_id": "2040a9985f",
+   "ledger_row": "settle/results",
+   "lab_name": "main_hk1b.log"
+  },
+  {
+   "path": "results/hk1b/result_hk1b.json",
+   "sha256": "cecd313a1d73ed755ae65bbf1445ce2adfdf6ddbb406be21a640fa3cfa43feb4",
+   "seal_id": "2040a9985f",
+   "ledger_row": "settle/results",
+   "lab_name": "result_hk1b.json"
+  },
+  {
+   "path": "results/seals/AMEND-HK-1-1.md",
+   "sha256": "25980c00e996f5e09c7501e71f955b3946888ae7bb2554b4c843e8c26198f1fd",
+   "seal_id": "48cf09638b",
+   "ledger_row": "seal-file/files",
+   "lab_name": "AMEND-HK-1-1.md"
+  },
+  {
+   "path": "results/seals/BAR-HK-1.md",
+   "sha256": "b777b10bd12e08166ed3e693f518b67ae225c7a3faf1e25b4e7fb926d5fd865a",
+   "seal_id": "53d448f307",
+   "ledger_row": "seal-file/files",
+   "lab_name": "BAR-HK-1.md",
+   "redacted": true,
+   "note": "verifiable against the lab ledger only (redacted for privacy)"
+  },
+  {
+   "path": "results/seals/BAR-HK-1b.md",
+   "sha256": "8fc850c00365791dac9a0e0a97dfda1bbfa5258f6db237fe6d5eebf13a17d208",
+   "seal_id": "2040a9985f",
+   "ledger_row": "seal-file/files",
+   "lab_name": "BAR-HK-1b.md",
+   "redacted": true,
+   "note": "verifiable against the lab ledger only (redacted for privacy)"
+  }
+ ]
+}

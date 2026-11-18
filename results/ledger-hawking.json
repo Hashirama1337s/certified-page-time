@@ -1,0 +1,291 @@
+[
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/bar-hk-1.md",
+    "sha256": "b777b10bd12e08166ed3e693f518b67ae225c7a3faf1e25b4e7fb926d5fd865a",
+    "bytes": 4500
+   }
+  ],
+  "tag": "HAWKING-HK1",
+  "note": null,
+  "sealed_at": "2026-11-17T19:39:53+00:00",
+  "seal_fields": {
+   "<lab>/bar-hk-1.md": {
+    "formula_refs": [
+     {
+      "path": "<recon>/seats/computing/papers/page2013.txt",
+      "lines": [
+       200,
+       215
+      ],
+      "sha256": "838d5bc6dc02bdc437099000a279c06e786f48ebeb4961054f693180787fca4a"
+     }
+    ],
+    "tolerances": "interval arithmetic (arb); overlap tests for PH3-PH4",
+    "ceiling": "the first certified Page constants of a real black hole (reference table; no new law)",
+    "toy_model": "s = 0 scalar low-frequency limit (PH5)"
+   }
+  },
+  "sha256": "53d448f307250db974d0362ce4d922c31501e9fd80051d37751860626906db58",
+  "id": "53d448f307"
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/amend-hk-1-1.md",
+    "sha256": "25980c00e996f5e09c7501e71f955b3946888ae7bb2554b4c843e8c26198f1fd",
+    "bytes": 1818
+   }
+  ],
+  "tag": "HAWKING-HK1",
+  "note": null,
+  "sealed_at": "2026-11-17T21:02:37+00:00",
+  "amends": "53d448f307",
+  "sha256": "48cf09638bbda898a76954bf7e20b4aa4b37e58186f51f157203303b154d5fcc",
+  "id": "48cf09638b"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "53d448f307",
+  "files": [
+   {
+    "path": "<lab>/build-1/hkcore.py",
+    "sha256": "67cde61d4c629f59c1c64bc76f1389c577c210062fd7d157416ac57e6397665b"
+   },
+   {
+    "path": "<lab>/build-1/hkquad.py",
+    "sha256": "22289f8bc6f63c787c3fed3242335800da3ae13220eb4a2b3d5e0d7374c0669e"
+   },
+   {
+    "path": "<lab>/build-1/hkbounds.py",
+    "sha256": "0f0af91665f312cec35081080234afdadd7864694b277ddf68c540bdbf373a85"
+   },
+   {
+    "path": "<lab>/build-1/hkchannel.py",
+    "sha256": "31c6c0781f7f5b4fffb407fd6cc3329877019d272075ca7594cd76ae513918d6"
+   },
+   {
+    "path": "<lab>/build-1/hk1_cert.py",
+    "sha256": "8fc13b9fb3528ad4777f16eb41b0366ea4d51a5d79569ab9f48943a1a520a5d7"
+   },
+   {
+    "path": "<lab>/build-1/sym_checks.py",
+    "sha256": "63ee91fba78b6be08880769b9a42bf20d507a831c7a12a4994976843c7fc88ce"
+   }
+  ],
+  "at": "2026-11-17T21:02:38+00:00"
+ },
+ {
+  "kind": "go",
+  "seal_id": "53d448f307",
+  "at": "2026-11-17T21:02:44+00:00",
+  "instruments": [
+   {
+    "path": "<lab>/build-1/hkcore.py",
+    "sha256": "67cde61d4c629f59c1c64bc76f1389c577c210062fd7d157416ac57e6397665b"
+   },
+   {
+    "path": "<lab>/build-1/hkquad.py",
+    "sha256": "22289f8bc6f63c787c3fed3242335800da3ae13220eb4a2b3d5e0d7374c0669e"
+   },
+   {
+    "path": "<lab>/build-1/hkbounds.py",
+    "sha256": "0f0af91665f312cec35081080234afdadd7864694b277ddf68c540bdbf373a85"
+   },
+   {
+    "path": "<lab>/build-1/hkchannel.py",
+    "sha256": "31c6c0781f7f5b4fffb407fd6cc3329877019d272075ca7594cd76ae513918d6"
+   },
+   {
+    "path": "<lab>/build-1/hk1_cert.py",
+    "sha256": "8fc13b9fb3528ad4777f16eb41b0366ea4d51a5d79569ab9f48943a1a520a5d7"
+   },
+   {
+    "path": "<lab>/build-1/sym_checks.py",
+    "sha256": "63ee91fba78b6be08880769b9a42bf20d507a831c7a12a4994976843c7fc88ce"
+   }
+  ],
+  "controls": [
+   {
+    "path": "<lab>/build-1/controls_hk1.json",
+    "sha256": "a1f6404c3a6d1a0db0d78e8b40fb76feca0bb1bcc607e8acc156676c87e757a0"
+   }
+  ]
+ },
+ {
+  "kind": "settle",
+  "seal_id": "53d448f307",
+  "seal_sha256": "53d448f307250db974d0362ce4d922c31501e9fd80051d37751860626906db58",
+  "outcome": "FAILED",
+  "measured": "Not HOLD as sealed. PH4 PASS (Regge-Wheeler = Zerilli at l=2,3 x 5 frequencies, flux identities contain 0). PH5 PASS (s=0 low-frequency limit: 0.006399818824 +/- 2e-13 at Mw=1e-3, 6.283403e-6 +/- 4e-13 at 1e-6). PH1, PH2, PH3, PH6 INCONCLUSIVE: main stopped computing totals with 'panel_integrals: sub-interval remainder not controlled at depth 7' in the channel after s=1 l=7 (an instrument depth limit on a channel whose contribution is ~1e-12 of alpha); no total enclosure produced. Channels completed (357 ledger lines) all inside recon values. Re-test after the instrument controls negligible high-l channels by absolute bounds.",
+  "settled_at": "2026-11-17T21:09:17+00:00",
+  "pin_warnings": [
+   "STALE: main_hk1.log names instrument hash(es) 04e22276661daf64f9d9... but none is a pinned instrument hash: it was produced by a different script version"
+  ],
+  "results": [
+   {
+    "path": "<lab>/build-1/result_hk1.json",
+    "sha256": "9334782d4b55c4c179f1db07831364a416c722671faeaec22f57bfba22f4d66d"
+   },
+   {
+    "path": "<lab>/build-1/main_hk1.log",
+    "sha256": "3c80f817444c7b53e1d3a893b2674390e3edd9bea489c74b99e8a22124efffe5"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/bar-hk-1b.md",
+    "sha256": "8fc850c00365791dac9a0e0a97dfda1bbfa5258f6db237fe6d5eebf13a17d208",
+    "bytes": 5139
+   }
+  ],
+  "tag": "HAWKING-HK1b",
+  "note": null,
+  "sealed_at": "2026-11-17T21:09:29+00:00",
+  "seal_fields": {
+   "<lab>/bar-hk-1b.md": {
+    "formula_refs": [
+     {
+      "path": "<recon>/seats/computing/papers/page2013.txt",
+      "lines": [
+       200,
+       215
+      ],
+      "sha256": "838d5bc6dc02bdc437099000a279c06e786f48ebeb4961054f693180787fca4a"
+     }
+    ],
+    "depends_on": [
+     "53d448f307",
+     "48cf09638b"
+    ],
+    "tolerances": "interval arithmetic (arb); overlap tests for PH3-PH4",
+    "ceiling": "the first certified Page constants of a real black hole (reference table; no new law)",
+    "toy_model": "s = 0 scalar low-frequency limit (PH5)"
+   }
+  },
+  "sha256": "2040a9985f553c5a405baccb86b93319e67eb454c103f94a190e822498e3f8ee",
+  "id": "2040a9985f"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "2040a9985f",
+  "files": [
+   {
+    "path": "<lab>/build-1/hk1b_quad.py",
+    "sha256": "09b3f2ed9546c12ccbe98ee0103d02d095d812b573646acedf3805e3f071a949"
+   },
+   {
+    "path": "<lab>/build-1/hk1b_channel.py",
+    "sha256": "ec3773729b91757a7c9ae7e61e4464591fa6a7743d45a0e2aa6b7c0942910aa8"
+   },
+   {
+    "path": "<lab>/build-1/hk1b_cert.py",
+    "sha256": "b3eaf122527162edb97f6b94c58ed9fb443e6237b17acefe8f25c35c314c0bfd"
+   },
+   {
+    "path": "<lab>/build-1/hkcore.py",
+    "sha256": "67cde61d4c629f59c1c64bc76f1389c577c210062fd7d157416ac57e6397665b"
+   },
+   {
+    "path": "<lab>/build-1/hkquad.py",
+    "sha256": "22289f8bc6f63c787c3fed3242335800da3ae13220eb4a2b3d5e0d7374c0669e"
+   },
+   {
+    "path": "<lab>/build-1/hkbounds.py",
+    "sha256": "0f0af91665f312cec35081080234afdadd7864694b277ddf68c540bdbf373a85"
+   },
+   {
+    "path": "<lab>/build-1/hkchannel.py",
+    "sha256": "31c6c0781f7f5b4fffb407fd6cc3329877019d272075ca7594cd76ae513918d6"
+   },
+   {
+    "path": "<lab>/build-1/hk1_cert.py",
+    "sha256": "8fc13b9fb3528ad4777f16eb41b0366ea4d51a5d79569ab9f48943a1a520a5d7"
+   },
+   {
+    "path": "<lab>/build-1/sym_checks.py",
+    "sha256": "63ee91fba78b6be08880769b9a42bf20d507a831c7a12a4994976843c7fc88ce"
+   }
+  ],
+  "at": "2026-11-17T21:32:07+00:00"
+ },
+ {
+  "kind": "go",
+  "seal_id": "2040a9985f",
+  "at": "2026-11-17T21:32:08+00:00",
+  "instruments": [
+   {
+    "path": "<lab>/build-1/hk1b_quad.py",
+    "sha256": "09b3f2ed9546c12ccbe98ee0103d02d095d812b573646acedf3805e3f071a949"
+   },
+   {
+    "path": "<lab>/build-1/hk1b_channel.py",
+    "sha256": "ec3773729b91757a7c9ae7e61e4464591fa6a7743d45a0e2aa6b7c0942910aa8"
+   },
+   {
+    "path": "<lab>/build-1/hk1b_cert.py",
+    "sha256": "b3eaf122527162edb97f6b94c58ed9fb443e6237b17acefe8f25c35c314c0bfd"
+   },
+   {
+    "path": "<lab>/build-1/hkcore.py",
+    "sha256": "67cde61d4c629f59c1c64bc76f1389c577c210062fd7d157416ac57e6397665b"
+   },
+   {
+    "path": "<lab>/build-1/hkquad.py",
+    "sha256": "22289f8bc6f63c787c3fed3242335800da3ae13220eb4a2b3d5e0d7374c0669e"
+   },
+   {
+    "path": "<lab>/build-1/hkbounds.py",
+    "sha256": "0f0af91665f312cec35081080234afdadd7864694b277ddf68c540bdbf373a85"
+   },
+   {
+    "path": "<lab>/build-1/hkchannel.py",
+    "sha256": "31c6c0781f7f5b4fffb407fd6cc3329877019d272075ca7594cd76ae513918d6"
+   },
+   {
+    "path": "<lab>/build-1/hk1_cert.py",
+    "sha256": "8fc13b9fb3528ad4777f16eb41b0366ea4d51a5d79569ab9f48943a1a520a5d7"
+   },
+   {
+    "path": "<lab>/build-1/sym_checks.py",
+    "sha256": "63ee91fba78b6be08880769b9a42bf20d507a831c7a12a4994976843c7fc88ce"
+   }
+  ],
+  "controls": [
+   {
+    "path": "<lab>/build-1/controls_hk1b.json",
+    "sha256": "e20955efc0c8fee1a299117a737a415221e7d15dda414ef955b5196b821d35ed"
+   }
+  ]
+ },
+ {
+  "kind": "settle",
+  "seal_id": "2040a9985f",
+  "seal_sha256": "2040a9985f553c5a405baccb86b93319e67eb454c103f94a190e822498e3f8ee",
+  "outcome": "HOLD",
+  "measured": "All PH1-PH6 PASS. PH1 beta [1.4846916919 +/- 7.81e-11] (rel 8.8e-11), excludes Page 2013 1.48472 and Perez-Gonzalez 2025 1.48471 rounding intervals. PH2 P_1 [3.3638547856e-5 +/- 2.57e-16], alpha [3.747528778e-5 +/- 1.96e-15], Sdot_1 [1.2683659541e-3 +/- 2.47e-14], Sdot_2 [1.300008786e-4 +/- 5.55e-14], Page time t*/t_decay [0.5381024532 +/- 8.99e-11]. PH3 graviton power [3.836739925e-6 +/- 6.95e-16], inside Newton's certified [3.8262e-6, 3.8639e-6]. PH4 RW = Zerilli at 10 points, flux identities contain 0. PH5 s=0 low-frequency limit within tolerance. PH6 null (s=1 potential) [6.77474891e-7 +/- 5.8e-16], disjoint from Newton. Fallback widths 0 (no fallback used). Not yet refereed or blind-replicated.",
+  "settled_at": "2026-11-17T21:45:38+00:00",
+  "pin_warnings": [
+   "STALE: main_hk1b.log names instrument hash(es) 3aa86d51883dfa38af5c... but none is a pinned instrument hash: it was produced by a different script version"
+  ],
+  "results": [
+   {
+    "path": "<lab>/build-1/result_hk1b.json",
+    "sha256": "cecd313a1d73ed755ae65bbf1445ce2adfdf6ddbb406be21a640fa3cfa43feb4"
+   },
+   {
+    "path": "<lab>/build-1/main_hk1b.log",
+    "sha256": "0a14c53a7ab555ccb89754827ace9594b4062aec730ad9a398c35bebbe6ea091"
+   }
+  ]
+ }
+]

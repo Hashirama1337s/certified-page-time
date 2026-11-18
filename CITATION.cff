@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "When does a black hole stop being a one-way door? Certified Page evaporation constants for a Schwarzschild black hole emitting photons and gravitons"
+authors:
+  - name: "Moki & Julio"
+version: "1.0"
+license: CC-BY-4.0
+keywords:
+  - Hawking radiation
+  - Page time
+  - black hole entropy
+  - greybody factors
+  - Schwarzschild black hole
+  - Regge-Wheeler equation
+  - computer-assisted proof
+  - interval arithmetic
+  - ball arithmetic
+  - rigorous numerics
+abstract: >-
+  To our knowledge, the first certified (interval-arithmetic, rigorously error-bounded) enclosures of Page's
+  evaporation constants for a Schwarzschild black hole emitting photons and gravitons into empty space: beta =
+  1.4846916919 +- 7.81e-11 and Page time t*/t_decay = 0.5381024532 +- 8.99e-11, together with certified photon power,
+  total power alpha and photon and graviton entropy rates (search of arXiv, INSPIRE and Zenodo to 17 November 2026).
+  The graviton power, and so the graviton part of alpha, was
+  certified earlier by Newton (Zenodo 10.5281/zenodo.22800587) to 1% width; our independent
+  enclosure lies inside his interval and is about seven orders of magnitude narrower. The result settles the digits
+  Page (2013) flagged as uncertain. Sealed test (one earlier sealed failure listed), two internal referee rounds,
+  blind replication by an independent, non-rigorous formulation (Teukolsky + MST series).
